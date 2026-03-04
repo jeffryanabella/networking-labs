@@ -1,0 +1,26 @@
+! R2 - Core Router
+! Lab 02: Static Routing
+! Generated from Packet Tracer - show running-config
+
+interface GigabitEthernet0/0
+ ip address 10.0.12.2 255.255.255.0
+ duplex auto
+ speed auto
+!
+interface GigabitEthernet0/1
+ ip address 10.0.23.1 255.255.255.0
+ duplex auto
+ speed auto
+!
+interface Vlan1
+ no ip address
+ shutdown
+!
+ip classless
+ip route 192.168.3.0 255.255.255.0 10.0.23.2 
+ip route 192.168.1.0 255.255.255.0 10.0.12.1 
+!
+ip flow-export version 9
+!
+!
+!
