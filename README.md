@@ -2,9 +2,9 @@
 
 ## Overview
 
-This repository documents my hands-on networking labs using Cisco Packet Tracer and virtualized environments.  
+Hands-on Packet Tracer labs built while studying for CompTIA Network+, targeting a Cloud Engineer career path.
 
-The goal of this project is to build a strong foundation in networking fundamentals while developing practical troubleshooting skills aligned with real-world IT Support and Network Engineering roles.
+The goal of this project is to build a strong foundation in networking fundamentals while developing practical troubleshooting skills aligned with real-world Network and Cloud Engineering roles.
 
 Each lab includes:
 - Topology diagram
@@ -17,71 +17,22 @@ This repository will grow progressively as I advance through networking concepts
 
 ---
 
-## Lab Roadmap
-
-### 🔹 Foundations
+## Labs
 
 | Lab | Title | Status |
 |-----|--------|--------|
 | 01 | Basic Network Connectivity | ✅ Completed |
-| 02 | Router & Default Gateway Configuration | 🔄 Coming Soon |
-| 03 | Subnetting and Inter-Network Communication | 🔄 Coming Soon |
-| 04 | VLAN Configuration and Segmentation | 🔄 Coming Soon |
-
----
-
-### 🔹 Switching & Routing
-
-| Lab | Title | Status |
-|-----|--------|--------|
-| 05 | Inter-VLAN Routing (Router-on-a-Stick) | 🔄 Coming Soon |
-| 06 | Static Routing | 🔄 Coming Soon |
-| 07 | DHCP Configuration | 🔄 Coming Soon |
-| 08 | DNS & Network Services | 🔄 Coming Soon |
-
----
-
-### 🔹 Advanced Networking & Security
-
-| Lab | Title | Status |
-|-----|--------|--------|
-| 09 | Access Control Lists (ACLs) | 🔄 Coming Soon |
-| 10 | NAT Configuration | 🔄 Coming Soon |
-| 11 | Port Security | 🔄 Coming Soon |
-| 12 | Basic Network Troubleshooting Scenarios | 🔄 Coming Soon |
-
----
-
-### 🔹 Virtualization & Enterprise Labs (Planned)
-
-| Lab | Title | Status |
-|-----|--------|--------|
-| 13 | Active Directory Domain Controller Setup (VM Lab) | 🔄 Coming Soon |
-| 14 | Windows Server DHCP & DNS Deployment | 🔄 Coming Soon |
-| 15 | Group Policy Configuration | 🔄 Coming Soon |
-| 16 | Basic SIEM / Log Analysis Lab | 🔄 Coming Soon |
-
----
-
-## Current Completed Lab
-
-### ✅ Lab 01 — Basic Network Connectivity
-
-**Concepts Covered:**
-- OSI Layer 1–3 fundamentals
-- Static IPv4 addressing
-- ARP process
-- MAC address learning
-- ICMP verification
-- Basic troubleshooting
-
-📂 Folder: `lab-01-basic-network-connectivity`
+| 02 | Static Routing | ✅ Completed |
+| 03 | VLAN + Inter-VLAN Routing | VLANs, trunking, router-on-a-stick | ⏳ Upcoming |
+| 04 | DHCP Relay | DHCP, ip helper-address, centralized IP management | ⏳ Upcoming |
+| 05 | NAT Overload | PAT, private to public IP translation | ⏳ Upcoming |
 
 ---
 
 ## Tools Used
 
 - Cisco Packet Tracer
+- VS Code
 - Windows Command Prompt
 - Cisco IOS CLI
 - Virtual Machines (Planned)
