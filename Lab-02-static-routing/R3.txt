@@ -1,4 +1,4 @@
-! R2 - Core Router
+! R3 - Core Router
 ! Lab 02: Static Routing
 ! Generated from Packet Tracer - show running-config
 
@@ -23,4 +23,5 @@ ip flow-export version 9
 !
 !
 !
+
 !
