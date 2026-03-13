@@ -4,7 +4,7 @@
 Built a multi-VLAN network on a single switch with three departments — Sales, Accounting, and HR — each isolated in their own VLAN. Configured a router-on-a-stick using subinterfaces to allow inter-VLAN routing across all three segments. The goal was to understand how Layer 2 isolation works and what it actually takes to route between VLANs.
 
 ## Topology
-![Topology Diagram](topology.png)
+![Topology Diagram](topology.PNG)
 
 | Device | Interface | IP Address | Subnet Mask | Default Gateway |
 |--------|-----------|------------|-------------|-----------------|
@@ -56,3 +56,4 @@ The commands were the hardest part going in — specifically configuring access 
 What really made it click was going through simulation mode and watching the packet move hop by hop. I could see the switch tagging the frame with a dot1Q header as it crossed the trunk, the router receiving it, routing it to the right subinterface, and sending it back tagged for the destination VLAN. As a visual learner, stepping through the PDU inbound and outbound details at each hop made the whole router-on-a-stick model make sense in a way that just reading about it wouldn't have.
 
 One thing worth noting — even though PC1, PC2, and PC3 are on the same physical switch, the traffic still has to travel all the way to the router and back. The switch can't route between VLANs on its own. That hairpin path is actually a known limitation of this design, and why larger networks use Layer 3 switches instead.
+
