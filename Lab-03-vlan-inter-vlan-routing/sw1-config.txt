@@ -1,0 +1,31 @@
+! SW1 Configuration
+! Lab 03 — VLAN + Inter-VLAN Routing (Router-on-a-Stick)
+
+hostname SW1
+
+! VLAN Definitions
+vlan 10
+ name Sales
+vlan 20
+ name Accounting
+vlan 30
+ name HR
+
+! Access Ports
+interface FastEthernet0/1
+ switchport mode access
+ switchport access vlan 10
+
+interface FastEthernet0/2
+ switchport mode access
+ switchport access vlan 20
+
+interface FastEthernet0/3
+ switchport mode access
+ switchport access vlan 30
+
+! Trunk Port
+interface FastEthernet0/24
+ switchport mode trunk
+
+end

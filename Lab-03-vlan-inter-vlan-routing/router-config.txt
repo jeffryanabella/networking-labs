@@ -1,0 +1,28 @@
+! Router Configuration
+! Lab 03 — VLAN + Inter-VLAN Routing (Router-on-a-Stick)
+
+hostname My-Router
+
+! Physical Interface
+interface GigabitEthernet0/0
+ no ip address
+ duplex auto
+ speed auto
+ no shutdown
+
+! Subinterface — VLAN 10 Sales
+interface GigabitEthernet0/0.10
+ encapsulation dot1Q 10
+ ip address 192.168.10.1 255.255.255.0
+
+! Subinterface — VLAN 20 Accounting
+interface GigabitEthernet0/0.20
+ encapsulation dot1Q 20
+ ip address 192.168.20.1 255.255.255.0
+
+! Subinterface — VLAN 30 HR
+interface GigabitEthernet0/0.30
+ encapsulation dot1Q 30
+ ip address 192.168.30.1 255.255.255.0
+
+end
