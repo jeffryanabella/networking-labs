@@ -24,7 +24,7 @@ This repository will grow progressively as I advance through networking concepts
 | 01 | Basic Network Connectivity | ✅ Completed |
 | 02 | Static Routing | ✅ Completed |
 | 03 | VLAN + Inter-VLAN Routing | ✅ Completed |
-| 04 | DHCP Relay | ⏳ Upcoming |
+| 04 | DHCP Relay | ✅ Completed |
 | 05 | NAT Overload | ⏳ Upcoming |
 
 ---
