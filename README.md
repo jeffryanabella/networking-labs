@@ -3,6 +3,7 @@
 ## Overview
 
 Hands-on Packet Tracer labs built while studying for CompTIA Network+, targeting a Cloud Engineer career path.
+
 Update: Passed Network+ last April 17, 2026.
 
 The goal of this project is to build a strong foundation in networking fundamentals while developing practical troubleshooting skills aligned with real-world Network and Cloud Engineering roles.
