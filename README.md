@@ -3,6 +3,7 @@
 ## Overview
 
 Hands-on Packet Tracer labs built while studying for CompTIA Network+, targeting a Cloud Engineer career path.
+Update: Passed Network+ last April 17, 2026.
 
 The goal of this project is to build a strong foundation in networking fundamentals while developing practical troubleshooting skills aligned with real-world Network and Cloud Engineering roles.
 
@@ -25,7 +26,7 @@ This repository will grow progressively as I advance through networking concepts
 | 02 | Static Routing | ✅ Completed |
 | 03 | VLAN + Inter-VLAN Routing | ✅ Completed |
 | 04 | DHCP Relay | ✅ Completed |
-| 05 | NAT Overload | ⏳ Upcoming |
+| 05 | NAT Overload | ✅ Completed |
 
 ---
 
@@ -44,7 +45,7 @@ This repository will grow progressively as I advance through networking concepts
 - Develop practical networking skills
 - Strengthen troubleshooting methodology
 - Build a professional IT portfolio
-- Prepare for Network+, CCNA, and entry-level IT roles
+- Prepare for entry-level IT roles and transition to Cloud
 
 ---
 
@@ -65,5 +66,5 @@ The focus is not just configuration, but understanding *why* networks behave the
 ## Author
 
 Jeff Ryan Abella  
-Aspiring IT Support / Network Engineer  
+Aspiring Cloud Engineer | Network+ Certified
 Philippines
