@@ -1,0 +1,34 @@
+! ============================================================
+! show ip dhcp binding
+! ============================================================
+IP address       Client-ID/              Lease expiration        Type
+                 Hardware address
+192.168.1.11     00E0.F989.1C62           --                     Automatic
+192.168.1.12     0060.7007.02A5           --                     Automatic
+192.168.1.13     00E0.F977.B33D           --                     Automatic
+
+! ============================================================
+! show ip nat translations
+! ============================================================
+Pro  Inside global     Inside local       Outside local      Outside global
+tcp 203.0.113.1:1024   192.168.1.12:1025  8.8.8.2:80         8.8.8.2:80
+tcp 203.0.113.1:1025   192.168.1.11:1025  8.8.8.2:80         8.8.8.2:80
+tcp 203.0.113.1:1026   192.168.1.13:1025  8.8.8.2:80         8.8.8.2:80
+
+! ============================================================
+! show ip nat statistics
+! ============================================================
+Total translations: 3 (0 static, 3 dynamic, 3 extended)
+Outside Interfaces: GigabitEthernet0/1
+Inside Interfaces: GigabitEthernet0/0
+Hits: 33  Misses: 35
+Expired translations: 28
+Dynamic mappings:
+
+! ============================================================
+! show ip interface brief
+! ============================================================
+Interface              IP-Address      OK? Method Status                Protocol 
+GigabitEthernet0/0     192.168.1.1     YES manual up                    up 
+GigabitEthernet0/1     203.0.113.1     YES manual up                    up 
+Vlan1                  unassigned      YES unset  administratively down down
