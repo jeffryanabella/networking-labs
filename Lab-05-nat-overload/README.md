@@ -125,7 +125,7 @@ See `configs/verification.txt` for full command output. Key results:
 
 **Web browser test** – PC1 and PC2 successfully loaded http://8.8.8.2 at the same time, demonstrating concurrent PAT sessions from different private hosts through a single public IP.
 
-![HTTP Web Browsing](screenshots/http-web-browsing.png)
+![HTTP Web Browsing](screenshots/http-web-browsing.PNG)
 
 ---
 
