@@ -68,4 +68,5 @@ The focus is not just configuration, but understanding *why* networks behave the
 
 Jeff Ryan Abella  
 Aspiring Cloud Engineer | Network+ Certified
+
 Philippines
