@@ -2,7 +2,7 @@
 
 ## Overview
 
-Hands-on networking labs built while studying for AWS Cloud certifications and transitioning toward a Cloud Engineer career path.
+Hands-on networking labs built while studying for CompTIA Network+ and transitioning toward a Cloud Engineer career path.
 
 **Update: Passed Network+ on April 17, 2026.**
 
@@ -70,6 +70,6 @@ The focus is not just configuration, but understanding why networks behave the w
 
 ## Author
 
-**Jeff Ryan Abella**
-Aspiring Cloud Engineer | CompTIA Network+ Certified
+**Jeff Ryan Abella**  
+Aspiring Cloud Engineer | CompTIA Network+ Certified  
 Philippines
