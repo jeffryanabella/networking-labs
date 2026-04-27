@@ -5,7 +5,7 @@ Design and implement a multi-area OSPF network spanning three areas, configure A
 
 ## Topology
 
-![Topology](topology.png)
+![Topology](topology.PNG)
 
 ## IP Addressing Table
 
