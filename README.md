@@ -2,42 +2,46 @@
 
 ## Overview
 
-Hands-on Packet Tracer labs built while studying for CompTIA Network+, targeting a Cloud Engineer career path.
+Hands-on networking labs built while studying for AWS Cloud certifications and transitioning toward a Cloud Engineer career path.
 
-Update: Passed Network+ last April 17, 2026.
+**Update: Passed Network+ on April 17, 2026.**
 
-The goal of this project is to build a strong foundation in networking fundamentals while developing practical troubleshooting skills aligned with real-world Network and Cloud Engineering roles.
+The goal of this repository is to build a strong foundation in networking fundamentals while developing practical skills aligned with real-world Network and Cloud Engineering roles.
 
 Each lab includes:
+
 - Topology diagram
 - Configuration details
 - Verification steps
 - Troubleshooting scenarios
 - Key technical takeaways
 
-This repository will grow progressively as I advance through networking concepts.
+This repository will grow progressively as I advance through networking and cloud concepts.
 
 ---
 
 ## Labs
 
-| Lab | Title | Status |
-|-----|--------|--------|
-| 01 | Basic Network Connectivity | ✅ Completed |
-| 02 | Static Routing | ✅ Completed |
-| 03 | VLAN + Inter-VLAN Routing | ✅ Completed |
-| 04 | DHCP Relay | ✅ Completed |
-| 05 | NAT Overload | ✅ Completed |
+| Lab | Title | Tools | Status |
+|-----|-------|-------|--------|
+| 01 | Basic Network Connectivity | Packet Tracer | ✅ Completed |
+| 02 | Static Routing | Packet Tracer | ✅ Completed |
+| 03 | VLAN + Inter-VLAN Routing | Packet Tracer | ✅ Completed |
+| 04 | DHCP Relay | Packet Tracer | ✅ Completed |
+| 05 | NAT Overload | Packet Tracer | ✅ Completed |
+| 06 | Multi-Area OSPF | GNS3 + Cisco IOS | ✅ Completed |
 
 ---
 
 ## Tools Used
 
 - Cisco Packet Tracer
+- GNS3 2.2.58.1 + GNS3 VM
+- Cisco IOS 15.2(4)S5 (c7200-advipservicesk9)
+- VMware Workstation
 - VS Code
-- Windows Command Prompt
 - Cisco IOS CLI
-- Virtual Machines (Planned)
+- Windows Command Prompt
 
 ---
 
@@ -46,7 +50,7 @@ This repository will grow progressively as I advance through networking concepts
 - Develop practical networking skills
 - Strengthen troubleshooting methodology
 - Build a professional IT portfolio
-- Prepare for entry-level IT roles and transition to Cloud
+- Prepare for entry-level IT roles and transition to Cloud Engineering
 
 ---
 
@@ -60,13 +64,12 @@ Each lab is built with the following structure:
 4. Intentionally break the network
 5. Troubleshoot and document findings
 
-The focus is not just configuration, but understanding *why* networks behave the way they do.
+The focus is not just configuration, but understanding why networks behave the way they do.
 
 ---
 
 ## Author
 
-Jeff Ryan Abella  
-Aspiring Cloud Engineer | Network+ Certified
-
+**Jeff Ryan Abella**
+Aspiring Cloud Engineer | CompTIA Network+ Certified
 Philippines
